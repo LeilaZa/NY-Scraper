@@ -42,9 +42,7 @@ with open('links.txt', 'w') as f:
 with open("NYnews.csv","w") as f:
     for link in links:
         link_url = link['href']
-    
-        #title = link.find('h4').text
-        #date = link.find_next('time').text
+
         
         title = link.find('h4')
         try:
