@@ -70,10 +70,7 @@ with open("NYnews.csv","w") as f:
         except:
             author=None
             
-        #if date is not None:
-       #     date = date.text
-       # else:
-        #    date = None
+
         print(str(date) + '\n'+ str(title) + '\n' + str(typeN) +
               '\n' + str(author)+
               '\n'+ str("https://www.nytimes.com")+ str(link['href']))
