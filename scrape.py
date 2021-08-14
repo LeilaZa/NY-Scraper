@@ -3,7 +3,7 @@
 """
 Created on Sat Aug 14 12:16:51 2021
 
-@author: leila
+@author: Leila Zahedi
 """
 import time
 import requests
@@ -16,7 +16,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 base = "https://www.nytimes.com"
-browser = webdriver.Chrome('/Users/leila/Downloads/chromedriver')
+browser = webdriver.Chrome('chromedriver')
 wait = WebDriverWait(browser, 10)
 browser.get('https://www.nytimes.com/search?dropmab=false&endDate=20210119&query=%E2%80%9CSanctuary%20cities%E2%80%9D&sort=best&startDate=20180101&types=article')
 
