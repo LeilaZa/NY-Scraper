@@ -5,4 +5,4 @@
 > browser.get("Put your link here")
 ###### chromdriver in the code below should be downloaded in your desired directory:
 > browser = webdriver.Chrome("desired directory path")
-
+Use `git status` to list all new or modified files that haven't yet been committed.
